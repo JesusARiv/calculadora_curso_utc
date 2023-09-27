@@ -1,0 +1,28 @@
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+button {
+    width: 24%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container{
+    margin: 2em;
+    
+}
+
+.row {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); Three columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+}
+
+.column {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
